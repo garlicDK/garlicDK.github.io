@@ -7,12 +7,18 @@
 			margin: 0px;
 			padding: 0px;
 		}
+		a{
+			text-decoration: none;
+		}
+		a:hover{
+			color: red;
+		}
 		.container{
 			width: 1000px;
 			margin: 0 auto;
 		}
 		.btn{
-			border-radius:10px;
+			border-radius: 5px;
 		    background-color: blue;
 		    border: none;
 		    color: white;
@@ -33,13 +39,14 @@
 			float: left;
 		} 
 		.header .tbxsearch{
-			padding: 5px;
+			padding: 6px;
 			width: 350px;
-			margin-right: 0px; 
+			margin-right: 0px;
+			border-radius: 5px;
 		}
 		.header #btnSearch{
 			margin-left: 0px;
-			margin-right: 60px;
+			margin-right: 58px;
 		}
 		.main-menu{
 			width: 100%;
@@ -57,11 +64,8 @@
 		.main-menu ul li a{
 			padding: 17px 20px;
 			border-right: 1px #fff solid;
-			text-decoration:none; 
 			color: white;
-		}
-		.main-menu ul li a:hover{
-			color: red;
+			text-transform: uppercase;
 		}
 		.menu-left{
 			float: left;
@@ -72,7 +76,6 @@
 			list-style-type: none;
 		}
 		.menu-left li a{
-			text-decoration: none;
 			color: black;
 		}
 		.menu-left li:hover{
@@ -103,10 +106,7 @@
 			padding: 10px;
 			text-align: center;
 			width: 16%;
-		}
-		.items .item p{
-			color: red;
-		}
+		}.items .item
 		.imgItem{
 			width: 140px;
 			height: 150px;
@@ -142,14 +142,12 @@
 			width: 25%;
 			padding: 10px;
 		}
-		.footer-content .item a{
-			text-decoration: none;
-		}
 		.footer-content .item h4{
 			margin-bottom: 20px; 
 		}
 		.footer-bottom{
 			padding: 5px;
+			margin-top: 20px; 
 			background: #2E64FE;
 		}
 	</style>
@@ -232,48 +230,48 @@
 		<div class="footer-header">
 			<div class="icon">
 			<img src="icon1.png" alt="icon" class="icon-footer">
-			<p class="tbxIcon">TƯ VẤN MIỄN PHÍ</p>
+			<p class="tbxIcon"><a href="#">TƯ VẤN MIỄN PHÍ</a></p>
 			</div>
 			<div class="icon">
 			<img src="icon2.png" alt="icon" class="icon-footer">
-			<p class="tbxIcon">THANH TOÁN KHI NHẬN HÀNG</p>
+			<p class="tbxIcon"><a href="#">THANH TOÁN KHI NHẬN HÀNG</a></p>
 			</div>
 			<div class="icon ">
 			<img src="icon4.png" alt="icon" class="icon-footer">
-			<p class="tbxIcon">GIAO MIỄN PHÍ TRONG 10KM</p>
+			<p class="tbxIcon"><a href="#">GIAO MIỄN PHÍ TRONG 10KM</a></p>
 			</div>
 			<div class="icon">
 			<img src="icon3.png" alt="icon" class="icon-footer">
-			<p class="tbxIcon">ĐẢM BẢO CHẤT LƯỢNG</p>
+			<p class="tbxIcon"><a href="#">ĐẢM BẢO CHẤT LƯỢNG</a></p>
 			</div>
 		</div>
 		<div class="footer-content">
 				<div class="item">
 					<h4>THÔNG TIN</h4>
-					<a href="#">Về chúng tôi</a> <br>
-					<a href="#">Thông tin giao hàng</a><br>
-					<a href="#">Chính sách bảo mật</a><br>
-					<a href="#">Điều khoản sử dụng</a><br>
+					<a href="#">Về chúng tôi</a> <br><br>
+					<a href="#">Thông tin giao hàng</a><br><br>
+					<a href="#">Chính sách bảo mật</a><br><br>
+					<a href="#">Điều khoản sử dụng</a><br><br>
 				</div>
 				<div class="item">
 					<h4>CHĂM SÓC KHÁCH HÀNG</h4>
-					<a href="#">Liên hệ</a><br>
-					<a href="#">Trả hàng</a><br>
-					<a href="#">Sơ đồ trang</a><br>
+					<a href="#">Liên hệ</a><br><br>
+					<a href="#">Trả hàng</a><br><br>
+					<a href="#">Sơ đồ trang</a><br><br>
 				</div>
 				<div class="item">
 					<h4>CHỨC NĂNG KHÁC</h4>
-					<a href="#">Thương hiệu</a><br>
-					<a href="#">Phiếu quà tặng</a><br>
-					<a href="#">Đại lý</a><br>
-					<a href="#">Khuyến mãi</a><br>
+					<a href="#">Thương hiệu</a><br><br>
+					<a href="#">Phiếu quà tặng</a><br><br>
+					<a href="#">Đại lý</a><br><br>
+					<a href="#">Khuyến mãi</a><br><br>
 				</div>
 				<div class="item">
 					<h4>TÀI KHOẢN CỦA TÔI</h4>
-					<a href="#">Tài khoản của tôi</a><br>
-					<a href="#">Lịch sử đơn hàng</a><br>
-					<a href="#">Danh sách yêu thích</a><br>
-					<a href="#">Thư thông báo</a>
+					<a href="#">Tài khoản của tôi</a><br><br>
+					<a href="#">Lịch sử đơn hàng</a><br><br>
+					<a href="#">Danh sách yêu thích</a><br><br>
+					<a href="#">Thư thông báo</a><br>
 				</div>
 		</div>
 		<div class="footer-bottom">
