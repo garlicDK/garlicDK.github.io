@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Công TH22.01</title>
+	<style type="text/css">
+		*{
+			margin: 0px;
+			padding: 0px;
+		}
+		.container{
+			width: 1000px;
+			margin: 0 auto;
+		}
+		.btn{
+		    background-color: blue;
+		    border: none;
+		    color: white;
+		    padding: 8px 20px;
+		    text-align: center;
+		    text-decoration: none;
+		    display: inline-block;
+		    font-size: 16px;
+		}
+		.header{
+			line-height: 60px;
+		}
+		.header .imgLogo{
+			margin-top:10px;
+			margin-right: 40px;
+			width: 200px;
+			height: auto;
+			float: left;
+		} 
+		.header .tbxsearch{
+			padding: 5px;
+			width: 350px;
+			margin-right: 0px; 
+		}
+		.header #btnSearch{
+			margin-left: 0px;
+			margin-right: 60px;
+		}
+		.main-menu{
+			width: 100%;
+			background: blue;
+			margin-bottom: 10px;
+		}
+		.main-menu ul{
+			padding: 10px 0px 10px 0px;
+		}
+		.main-menu ul li{
+			list-style-type: none;
+			display: inline;
+			font-weight: bold;
+			padding: 10px 10px 11px 10px;
+		}
+		.main-menu ul li a{
+			text-decoration:none; 
+			color: white;
+		}
+		.main-menu ul li a:hover{
+			color: black;
+		}
+		.menu-left{
+			float: left;
+		}
+		.menu-left li{
+			padding:10px;
+			width: 200px;
+			list-style-type: none;
+		}
+		.menu-left li a{
+			text-decoration: none;
+			color: black;
+		}
+		.menu-left li:hover{
+			background: blue;
+		}
+		.bottom-content{
+			margin-top: 20px;
+			width: 1000px;
+		}
+		.Avatar1{
+			width: 500px;
+			padding: 1px;
+			float: left;
+		}
+		.Avatar{
+			width: 272px;
+			height: 191px;
+			padding: 5px 0px 5px 5px;
+		}
+		.items {
+			display: flex;
+			flex-direction: rows;
+		}
+		.items .item {
+			padding: 10px;
+			text-align: center;
+			width: 16%;
+		}
+		.imgItem{
+			width: 140px;
+			height: 150px;
+		}
+		.item-title{
+			margin: 10px 5px 5px 5px;
+		}
+		.footer{
+			margin-top: 100px;
+		}
+		.footer-header{
+			display: flex;
+			flex-direction: rows;
+		}
+		.icon{ 
+			padding-left: 20px;
+			width: 23%;
+		}
+		.icon-footer{
+			float: left;
+			width: 25px;
+			padding-right:20px; 
+		}
+		.tbxIcon{
+			width: 250px;
+		}
+		.footer-content{
+			margin-top:50px; 
+			display: flex;
+			flex-direction: rows;
+		}
+		.footer-content .item{
+			width: 25%;
+			padding: 10px;
+		}
+		.footer-content .item a{
+			text-decoration: none;
+		}
+		.footer-content .item h4{
+			margin-bottom: 20px; 
+		}
+		.footer-bottom{
+			padding: 5px;
+			background: #2E64FE;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+	<div class="header">
+		<img src="image\Logo.png" class="imgLogo">
+		<input type="text" placeholder="Nhập từ khóa..." class="tbxsearch">
+		<input type="button" value="Tìm kiếm" id="btnSearch" class="btn">
+		<input type="button" value="Giỏ hàng" id="btnGioHang" class="btn">
+		<input type="button" value="Sản phẩm" id="btnSanPham" class="btn">
+	</div>
+	<div class="main-menu">
+		<ul>
+			<li><a href="#">Thời trang em bé</a></li>
+			<li><a href="#">Váy & đầm</a></li>
+			<li><a href="#">Tặng quà</a></li>
+			<li><a href="#">Thời trang</a></li>
+			<li><a href="#">Thời trang biển</a></li>
+			<li><a href="#">Thời trang nữ</a></li>
+			<li><a href="#">Thời trang nam</a></li>
+		</ul>
+	</div>
+	<div class="main-content">
+		<div class="top-content">
+			<ul class="menu-left">
+				<h3 style="font-weight: bold;">Danh mục</h3>
+				<li><a href="#">Thời trang em bé</a></li>
+				<li><a href="#">Váy & đầm</a></li>
+				<li><a href="#">Tặng quà</a></li>
+				<li><a href="#">Thời trang</a></li>
+				<li><a href="#">Thời trang biển</a></li>
+				<li><a href="#">Thời trang nữ</a></li>
+				<li><a href="#">Thời trang nam</a></li>
+			</ul>
+			<div class="slide-right">
+				<a href="#"><img src="image\imgAvt.jpg" alt="avt" class="Avatar1"></a>
+				<a href="#"><img src="image\avt2.jpg" alt="avt1" class="Avatar"></a>
+				<a href="#"><img src="image\avt3.jpg" alt="avt2" class="Avatar"></a>
+			</div>
+		</div>
+		<div class="bottom-content">
+			<h3>Thời trang nữ</h3>
+			<div class="items">
+			<div class="item">
+				<img src="image\images.jpg" class="imgItem">
+				<h5 class="item-title"><a href="#">Guitar - 01</a></h5>
+				<p>250.000đ</p>
+			</div>
+			<div class="item">
+				<img src="image\images2.jpg" class="imgItem">
+				<h5 class="item-title"><a href="#">Guitar - 02</a></h5>
+				<p>250.000đ</p>
+			</div>
+			<div class="item">
+				<img src="image\images3.jpg" class="imgItem">
+				<h5 class="item-title"><a href="#">Guitar - 03</a></h5>
+				<p>250.000đ</p>
+			</div>
+			<div class="item">
+				<img src="image\images4.jpg" class="imgItem">
+				<h5 class="item-title"><a href="#">Guitar - 04</a></h5>
+				<p>250.000đ</p>
+			</div>
+			<div class="item">
+				<img src="image\images5.jpg" class="imgItem">
+				<h5 class="item-title"><a href="#">Guitar - 05</a></h5>
+				<p>250.000đ</p>
+			</div>
+			<div class="item">
+				<img src="image\images6.jpg" class="imgItem">
+				<h5 class="item-title"><a href="#">Guitar - 06</a></h5>
+				<p>250.000đ</p>
+			</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="footer-header">
+			<div class="icon">
+			<img src="image\icon1.png" alt="icon" class="icon-footer">
+			<p class="tbxIcon">TƯ VẤN MIỄN PHÍ</p>
+			</div>
+			<div class="icon">
+			<img src="image\icon2.png" alt="icon" class="icon-footer">
+			<p class="tbxIcon">THANH TOÁN KHI NHẬN HÀNG</p>
+			</div>
+			<div class="icon ">
+			<img src="image\icon4.png" alt="icon" class="icon-footer">
+			<p class="tbxIcon">GIAO MIỄN PHÍ TRONG 10KM</p>
+			</div>
+			<div class="icon">
+			<img src="image\icon3.png" alt="icon" class="icon-footer">
+			<p class="tbxIcon">ĐẢM BẢO CHẤT LƯỢNG</p>
+			</div>
+		</div>
+		<div class="footer-content">
+				<div class="item">
+					<h4>THÔNG TIN</h4>
+					<a href="#">Về chúng tôi</a> <br>
+					<a href="#">Thông tin giao hàng</a><br>
+					<a href="#">Chính sách bảo mật</a><br>
+					<a href="#">Điều khoản sử dụng</a><br>
+				</div>
+				<div class="item">
+					<h4>CHĂM SÓC KHÁCH HÀNG</h4>
+					<a href="#">Liên hệ</a><br>
+					<a href="#">Trả hàng</a><br>
+					<a href="#">Sơ đồ trang</a><br>
+				</div>
+				<div class="item">
+					<h4>CHỨC NĂNG KHÁC</h4>
+					<a href="#">Thương hiệu</a><br>
+					<a href="#">Phiếu quà tặng</a><br>
+					<a href="#">Đại lý</a><br>
+					<a href="#">Khuyến mãi</a><br>
+				</div>
+				<div class="item">
+					<h4>TÀI KHOẢN CỦA TÔI</h4>
+					<a href="#">Tài khoản của tôi</a><br>
+					<a href="#">Lịch sử đơn hàng</a><br>
+					<a href="#">Danh sách yêu thích</a><br>
+					<a href="#">Thư thông báo</a>
+				</div>
+		</div>
+		<div class="footer-bottom">
+			<p>Design by Ngô Công - TH22.01</p>
+		</div>
+	</div>
+	</div>
+</body>
+</html>
